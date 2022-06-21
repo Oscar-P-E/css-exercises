@@ -1,0 +1,43 @@
+.header  {
+  font-family: monospace;
+  background: papayawhip;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.header .left-links {
+  margin-right: auto;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+}
+
+.header .right-links {
+  margin-left: auto;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0 -8px;
+  padding: 0;
+}
+
+ul li {
+  margin: 8px;
+}
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  text-decoration: none;
+}

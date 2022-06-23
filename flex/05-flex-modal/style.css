@@ -37,6 +37,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* Missed this. Saw it in provided solution */
+  flex-shrink: 0;
 }
 
 .main-container {
